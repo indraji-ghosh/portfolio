@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'NyghtSerif';
+  src: url('/font/NyghtSerif-BoldItalic.woff') format('woff');
+}
+body{
+  background-color: black;
+  color:white;
+  font-family: 'Poppins';
+}
+
+.hero{
+  background-image: url('./hero2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.about__heading{
+  background:linear-gradient(288deg,#ff8000,#f0c 53.2394%,#04f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'NyghtSerif';
+}
+
+.about__button{
+  background:linear-gradient(288deg,#ff8000,#f0c 53.2394%,#04f);
+}
+
+@media screen and (max-width: 768px) {
+  .hero{
+  background-image: url('./mobile-hero2.jpg');
+  background-size: cover;
+  background-position: center;
+
+  }
+}
+
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+
+
+
+.wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(187% + 1.3px);
+  height: 81px;
+  transform: rotateY(180deg);
+}
+
+.wave .shape-fill {
+  fill: #000000;
+}
+
+
+.contact{
+  background: rgb(0,51,102);
+background: linear-gradient(159deg, rgba(0,51,102,1) 0%, rgba(15,82,186,1) 100%);
+}
