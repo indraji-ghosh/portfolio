@@ -1,49 +1,35 @@
 import React from 'react';
 const projects = [
   {
-    title: "Zenith Minds",
-    description: "An educational platform connecting students and instructors.",
+    title: "One Minute Resume",
+    description: "Build a professional resume with our free builder",
     points: [
-      "Built with Next.js and TypeScript.",
-      "Styled using Tailwind CSS and Framer Motion.",
-      "Used Zustand and Zod.",
-      "MongoDB + RESTful APIs.",
+      "I use React.js to build fast, interactive web apps.",
+    "Tailwind CSS helps me style with speed and flexibility.",
+   " React ensures efficient UI rendering and state management.",
+    "Tailwind keeps designs clean, responsive, and consistent."
     ],
     tags: [
         { image: 'https://cdn.simpleicons.org/html5', name: 'HTML' },
-        { image: 'https://cdn.simpleicons.org/css3', name: 'CSS' },
+        { image: 'https://cdn.simpleicons.org/tailwindcss', name: 'Tailwind' },
         { image: 'https://cdn.simpleicons.org/javascript', name: 'JavaScript' },
-        { image: 'https://cdn.simpleicons.org/typescript', name: 'TypeScript' },
         { image: 'https://cdn.simpleicons.org/react', name: 'ReactJS' },
     ],
-    image: "/zenith.avif",
+    image: "/resume.png",
   },
   {
-    title: "Code Connect",
-    description: "A collaborative dev community with live chat features.",
-    points: ["Real-time WebSocket messaging.", "OAuth + dashboard UX."],
+    title: "ShopSphere",
+    description: "A modern e-commerce platform built with the MERN stack.",
+    points: ["Secure Auth with JWT ", "sleek dashboard for admins & users."],
     tags: [  
-          { image: 'https://cdn.simpleicons.org/html5', name: 'HTML' },
-        { image: 'https://cdn.simpleicons.org/css3', name: 'CSS' },
-        { image: 'https://cdn.simpleicons.org/javascript', name: 'JavaScript' },
-        { image: 'https://cdn.simpleicons.org/typescript', name: 'TypeScript' },
-        { image: 'https://cdn.simpleicons.org/react', name: 'ReactJS' },
+          { image: 'https://cdn.simpleicons.org/react', name: 'React' },
+        { image: 'https://cdn.simpleicons.org/mongodb', name: 'MongoDB' },
+        { image: 'https://cdn.simpleicons.org/express', name: 'ExpressJS' },
+        { image: 'https://cdn.simpleicons.org/nodedotjs', name: 'NodeJS' },
+        { image: 'https://cdn.simpleicons.org/redux', name: 'Redux' },
     ],
-    image: "/zenith.avif",
-  },
-  {
-    title: "EduAI Hub",
-    description: "AI-assisted content generation for educators.",
-    points: ["OpenAI API integration.", "Next.js App Router."],
-    tags: [
-        { image: 'https://cdn.simpleicons.org/html5', name: 'HTML' },
-        { image: 'https://cdn.simpleicons.org/css3', name: 'CSS' },
-        { image: 'https://cdn.simpleicons.org/javascript', name: 'JavaScript' },
-        { image: 'https://cdn.simpleicons.org/typescript', name: 'TypeScript' },
-        { image: 'https://cdn.simpleicons.org/react', name: 'ReactJS' },
-    ],
-    image: "/zenith.avif",
-  },
+    image: "/ecom.png",
+  }
 ];
 
 const Projects = () => {
