@@ -9,7 +9,7 @@ body{
 }
 
 .hero{
-  background-image: url('https://i.ibb.co/RkmZshMZ/hero2.jpg');
+  background-image: url('./assets/hero2.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -27,7 +27,7 @@ body{
 
 @media screen and (max-width: 768px) {
   .hero{
-  background-image: url('https://i.ibb.co/0jG78ctV/mobile-hero2.jpg');
+  background-image: url('./assets/mobileHero.jpg');
   background-size: cover;
   background-position: center;
 
